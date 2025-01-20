@@ -10,7 +10,6 @@ import java.io.File;
 
 public class Main {
     public static final String path = "C:/Users/Alejandro/Desktop/Logos";
-
     public static void main(String[] args) {
         MainFrame frame = new MainFrame();
         Image image = new FileImageLoader(new File(path)).load();
